@@ -76,7 +76,7 @@ export const PopupNewTask = ({ open, onCancel }) => {
         <Form.Item label="Description">
           <TextArea />
         </Form.Item>
-        <Button htmlType="submit" type="primary" className="w-full">
+        <Button htmlType="submit" type="primary" className="w-full bg-accent">
           Create task
         </Button>
       </Form>

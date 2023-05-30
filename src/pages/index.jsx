@@ -9,7 +9,7 @@ export const Home = () => {
   const [openCreate, setOpenCreate] = useState(false)
   return (
     <div className="max-w-[600px] p-10 mx-auto ">
-      <Button onClick={() => setOpenCreate(true)} className="w-full mb-4" type="primary">
+      <Button onClick={() => setOpenCreate(true)} className="w-full mb-4 bg-accent" type="primary">
         Create new Task
       </Button>
       <div className="flex gap-2 flex-col">

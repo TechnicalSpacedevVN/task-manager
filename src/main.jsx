@@ -7,7 +7,7 @@ import '@/assets/tailwind.css'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import { App } from './App'
 import { BrowserRouter } from 'react-router-dom'
-import 'antd/dist/reset.css'
+// import 'antd/dist/reset.css'
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -26,7 +26,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     locale={viVN}
     theme={{
       token: {
-        colorPrimary: '#0284c7',
+        colorPrimary: '#249fd4',
         colorSuccess: '#ade792',
         colorError: '#e05d5d',
         colorWarning: '#ffb344',

@@ -22,7 +22,7 @@ export default defineConfig(({ mode }) => {
     },
     server: {
       port: parseInt(env.PORT) || 3000,
-      open: true,
+      // open: true,
     },
   }
 })
