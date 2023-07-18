@@ -1,12 +1,10 @@
-import { Avatar, Button, DatePicker, Dropdown, Form, Input, Modal, Tag } from 'antd'
-import React, { useRef, useState } from 'react'
-import { PlusOutlined, CloseOutlined, PushpinOutlined } from '@ant-design/icons'
+import { CloseOutlined, PlusOutlined, PushpinOutlined } from '@ant-design/icons'
+import { Avatar, Button, DatePicker, Form, Input, Modal } from 'antd'
 import TextArea from 'antd/es/input/TextArea'
 import { SelectTag } from '../SelectTag'
 import { DropdownSelect } from '../SelectUser'
 
 export const PopupNewTask = ({ open, onCancel }) => {
-  const buttonRef = useRef()
   return (
     <Modal
       maskClosable={false}

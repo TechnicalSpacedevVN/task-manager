@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { ConfigProvider } from 'antd'
 import viVN from 'antd/es/locale/vi_VN'
 import '@/assets/tailwind.css'
-import { QueryClient, QueryClientProvider } from 'react-query'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { App } from './App'
 import { BrowserRouter } from 'react-router-dom'
 
