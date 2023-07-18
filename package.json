@@ -4,10 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "test": "jest",
-    "i18n": "i18next-scanner"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",

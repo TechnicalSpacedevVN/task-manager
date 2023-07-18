@@ -1,8 +1,9 @@
-import MainLayout from './components/layouts/MainLayout'
-import { PATH } from './configs/path'
-import { Home } from './pages'
-import { ChatPage } from './pages/chat'
-import { LoginPage } from './pages/login'
+import { lazy } from "react";
+import MainLayout from "./components/layouts/MainLayout";
+import { PATH } from "./configs/path";
+
+const Home = lazy(() => import("./pages"));
+const Login = lazy(() => import("./pages/login"));
 
 export const routers = [
   {
@@ -14,12 +15,8 @@ export const routers = [
       },
       {
         path: PATH.LOGIN,
-        element: <LoginPage />,
-      },
-      {
-        path: PATH.CHAT,
-        element: <ChatPage />,
+        element: <Login />,
       },
     ],
   },
-]
+];

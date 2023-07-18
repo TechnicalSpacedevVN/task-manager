@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-export const LoginPage = () => {
+export const Login = () => {
   return (
     <section>
       <div className="flex relative justify-center lg:px-0 max-h-full md:px-12 overflow-hidden">
@@ -13,7 +13,12 @@ export const LoginPage = () => {
             loading="lazy"
             width={1664}
           >
-            <video autoPlay className="bg-white absolute max-w-none min-h-full min-w-full w-auto z-10" loop muted>
+            <video
+              autoPlay
+              className="bg-white absolute max-w-none min-h-full min-w-full w-auto z-10"
+              loop
+              muted
+            >
               <source
                 src="https://d33wubrfki0l68.cloudfront.net/c906151c5417ee08cea5c68bc4c8823316ba100c/3fe8e/images/desktopgradient.mp4"
                 type="video/mp4"
@@ -27,19 +32,31 @@ export const LoginPage = () => {
             <div className="flex flex-col">
               <div>
                 <div className="flex items-center gap-2 text-sm font-medium leading-tight text-black">
-                  <img className="w-14" src="https://spacedev.vn/images/LOGO-image-full.svg" alt="Spacedev.vn" />
+                  <img
+                    className="w-14"
+                    src="https://spacedev.vn/images/LOGO-image-full.svg"
+                    alt="Spacedev.vn"
+                  />
                   Spacedev.vn
                 </div>
-                <h2 className="font-medium leading-tight text-black mt-6 text-xl">Creat an account on Semplice</h2>
+                <h2 className="font-medium leading-tight text-black mt-6 text-xl">
+                  Creat an account on Semplice
+                </h2>
                 <div className="py-3">
                   <span className="w-full mt-3 inline-flex relative z-0">
                     <button
                       className="text-sm font-medium bg-white border border-slate-300 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:z-10 hover:bg-slate-50 inline-flex items-center justify-center px-6 py-4 relative rounded-xl text-slate-700 w-full"
                       type="button"
                     >
-                      <span>Register with</span>{' '}
+                      <span>Register with</span>{" "}
                       <span className="ml-3">
-                        <svg fill="none" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" height={24} width={24}>
+                        <svg
+                          fill="none"
+                          viewBox="0 0 32 32"
+                          xmlns="http://www.w3.org/2000/svg"
+                          height={24}
+                          width={24}
+                        >
                           <path
                             d="M30.0014 16.3109C30.0014 15.1598 29.9061 14.3198 29.6998 13.4487H16.2871V18.6442H24.1601C24.0014 19.9354 23.1442 21.8798 21.2394 23.1864L21.2127 23.3604L25.4536 26.58L25.7474 26.6087C28.4458 24.1665 30.0014 20.5731 30.0014 16.3109Z"
                             fill="#4285F4"
@@ -61,24 +78,37 @@ export const LoginPage = () => {
                     </button>
                   </span>
                   <div className="py-3 relative">
-                    <div className="flex items-center absolute inset-0" aria-hidden="true">
+                    <div
+                      className="flex items-center absolute inset-0"
+                      aria-hidden="true"
+                    >
                       <div className="w-full border-t border-slate-300" />
                     </div>
                     <div className="flex relative justify-center">
-                      <span className="text-sm px-2 bg-white text-slate-500">Or continue with</span>
+                      <span className="text-sm px-2 bg-white text-slate-500">
+                        Or continue with
+                      </span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <form action="https://submit-form.com/r4PIGvAB">
-              <input type="text" name="hidden" autoComplete="false" style={{ display: 'none' }} />{' '}
+              <input
+                type="text"
+                name="hidden"
+                autoComplete="false"
+                style={{ display: "none" }}
+              />{" "}
               <input type="hidden" name="_redirect" defaultValue="#" />
               <div className="space-y-6">
                 <div>
-                  <label className="text-sm font-medium block mb-3 text-slate-600" name="name">
+                  <label
+                    className="text-sm font-medium block mb-3 text-slate-600"
+                    name="name"
+                  >
                     User name or email Adress
-                  </label>{' '}
+                  </label>{" "}
                   <input
                     type="text"
                     className="w-full focus:outline-none border appearance-none bg-slate-100 block border-transparent focus:bg-white focus:border-accent-500 focus:ring-accent-500 placeholder-slate-400 px-3 py-2 rounded-md sm:text-sm text-accent-500"
@@ -86,9 +116,12 @@ export const LoginPage = () => {
                   />
                 </div>
                 <div className="col-span-full">
-                  <label className="text-sm font-medium block mb-3 text-slate-600" name="company">
+                  <label
+                    className="text-sm font-medium block mb-3 text-slate-600"
+                    name="company"
+                  >
                     Password
-                  </label>{' '}
+                  </label>{" "}
                   <input
                     type="password"
                     className="w-full focus:outline-none border appearance-none bg-slate-100 block border-transparent focus:bg-white focus:border-accent-500 focus:ring-accent-500 placeholder-slate-400 px-3 py-2 rounded-md sm:text-sm text-accent-500"
@@ -102,13 +135,19 @@ export const LoginPage = () => {
                       className="border-accent-500 accent-accent-500 focus:ring-accent-500 h-4 rounded text-accent-500 w-4"
                       id="remember-me"
                       name="remember-me"
-                    />{' '}
-                    <label className="text-sm font-medium block leading-tight ml-2 text-black" htmlFor="remember-me">
+                    />{" "}
+                    <label
+                      className="text-sm font-medium block leading-tight ml-2 text-black"
+                      htmlFor="remember-me"
+                    >
                       Remember me
                     </label>
                   </div>
                   <div className="text-sm">
-                    <a className="font-medium hover:text-accent-500 text-accent-500" href="#">
+                    <a
+                      className="font-medium hover:text-accent-500 text-accent-500"
+                      href="#"
+                    >
                       Forgot your password?
                     </a>
                   </div>
@@ -123,8 +162,11 @@ export const LoginPage = () => {
                 </div>
                 <div>
                   <p className="text-sm font-medium leading-tight text-black">
-                    Not a member?{' '}
-                    <a className="ml-3 hover:text-accent-400 text-accent-500" href="/signup">
+                    Not a member?{" "}
+                    <a
+                      className="ml-3 hover:text-accent-400 text-accent-500"
+                      href="/signup"
+                    >
                       Sign up now
                     </a>
                   </p>
@@ -135,5 +177,7 @@ export const LoginPage = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
+
+export default Login

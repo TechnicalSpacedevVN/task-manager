@@ -1,4 +1,4 @@
-import { cn } from '@/core/hooks'
+import { cn } from '@/utils'
 import { Tag } from 'antd'
 import React from 'react'
 

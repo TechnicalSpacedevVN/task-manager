@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import PushpinOutlined from '@ant-design/icons/PushpinOutlined'
 import { ClockCircleOutlined } from '@ant-design/icons'
 import { Avatar, Button } from 'antd'
-import { cn } from '@/core/hooks'
+import { cn } from '@/utils'
 import { PopupNewTask } from '@/components/PopupNewTask'
 
 export const Home = () => {
@@ -51,3 +51,5 @@ const ToDoCard = ({ className }) => {
     </div>
   )
 }
+
+export default Home
